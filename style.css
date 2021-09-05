@@ -1,0 +1,148 @@
+*{padding: 0;margin: 0;}
+html {
+    scroll-behavior: smooth;
+    scroll-padding: 90px;
+}
+.menu{
+    background:rgb(50, 50, 50);
+    text-align: center;
+    position:fixed;
+    width: 97.5%;
+    height: 70px;
+    top: 0%;
+    z-index: 1;
+    margin-left: 20px;
+    font-size: larger;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.menu ul li{
+    width: 150px;
+    margin: 10px;
+    padding: 10px;
+}
+.menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color:white;
+    font-family: arial;
+}
+.menu ul li:hover{
+    background-color:white;
+}
+.menu ul li:hover>a{
+    color: black;
+}
+.image img{
+    width: 97.5%;
+    height:800px;
+    margin-left: 20px;
+    margin-top: 5%;
+    position: relative;
+}
+.Team{
+    text-align: center;
+    margin: 10px;
+}
+.member{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 20px;
+}
+.project{
+    text-align: center;
+    text-align: justify;
+    background-color: grey;
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    color: white;
+    font-family: arial;
+    font-size: 20px;
+}
+.about{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.us{
+    margin: 20px;
+    display: inline-flex;
+}
+.proj{
+    width: 50%;
+    height: auto;
+}
+.proj1{
+    width: 100%;
+    height:220px;
+    margin: 10px;   
+}
+.technology{
+    width: 97.5%;
+    height: 600px;
+    text-align: center;
+    margin-left: 20px;
+    display: inline-flex;
+}
+.card{
+    background: rgb(148, 146, 146);
+    width: 20%;
+    height: 510px;
+    margin: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.card img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+} 
+.card p{
+    text-align: justify;
+    font-size: 15px;
+    margin: 10px;
+    font-family: arial;
+    color: white;
+}
+.button{
+    background: red;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.button:hover{
+    background-color: blue;
+}
+.contact h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.template{
+    width: 97.5%;
+    height: 60px;
+    margin-left: 20px;
+    background-color: violet;
+    color: red;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.template a{
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+}
+.template a:hover{
+    text-decoration: underline;
+}
